@@ -1,0 +1,335 @@
+#myPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 17px;
+}
+
+
+
+
+/* Header for All Pages */
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-color: #cccccc;
+    height: 85px;
+    width: 100%;
+}
+
+#nav {
+    float: right;
+    position: fixed;
+    top: 10px;
+    right: 0;
+}
+
+#nav li {
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+    color: gray;
+}
+
+li {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+.header-name {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+}
+h1 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+
+
+
+/* About Me Page*/
+
+#about-me {
+    clear: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 960px;
+    height: 435px;
+    
+}
+
+#about-me-title {
+    color: #4aaaa5;
+    /* border-bottom-style: solid; */
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
+
+}
+body {
+    height: 100%;
+    background-color: lightgray;
+    margin: -22px 0 0 0;
+    z-index: -10;
+}
+
+#about-me {
+    background-color: #ffffff;
+}
+
+.margins {
+    margin-left: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Contact Form */
+#contact-form {
+    margin-top: 20px;
+    background-color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    color: gray;
+}
+
+#contact-title {
+    /* border-bottom-style: solid; */
+    color: #4aaaa5;
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
+}
+
+#input-name {
+    width: 99%;
+    height: 17px;
+    margin: auto;
+    padding: auto;
+    border: 1px solid gray;
+    /* border-color: gray; */
+}
+
+#input-email {
+    width: 99%;
+    height: 17px;
+    margin: auto;
+    padding: auto;
+}
+
+#input-message {
+    width: 99%;
+    height: 150px;
+    margin: auto;
+    padding: auto;
+}
+
+.btn-1 {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    left: 10px;
+    bottom: 10px;
+}
+
+/* Portfolio Page */
+
+#container {
+    clear: auto;
+    width: 960px;
+    height: 550px;
+    background-color: #ffffff !important;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    /* display: block; */
+    /* position: relative; */
+}
+
+#portfolio {
+    color: #4aaaa5;
+    /* border-bottom-style: solid; */
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
+}
+
+#container-pics {
+    width: 700px;
+    /* height: relative; */
+    /* background-color: red !important; */
+    margin: 0 auto;
+    z-index: 10000;
+}
+
+/* .container-pic {
+    height: 200px;
+    width: 200px;
+} */
+
+#row-1 {
+    width: 700px;
+    height: 225px;
+    background-color: #ffffff;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+
+#row-2 {    
+    width: 700px;
+    height: 225px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.pic-container {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff !important;
+    
+}
+
+.center {
+    margin-left: 85px;
+}
+
+.pics {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+
+
+.bannerLabel {
+    color: white !important;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 165px;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
+
+}
+/* All Pages Footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    margin: 0 auto;
+    color: white;
+    padding-top: 10px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 0;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+    #about-me {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 40px;
+    }
+
+    #contact-form {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    
+    #container {
+        width: 90%;
+        height: 800px%;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about-me {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #contact-form {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+        margin-left: 30px;
+    }
+
+    #container {
+        width: 90%;
+        height: 800px;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #about-me {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #contact-form {
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+        margin-left: 30px;
+    }
+
+    #container {
+        width: 90%;
+        height: 800px;
+        padding: 20px;
+        margin: 20px;
+    }
+}
