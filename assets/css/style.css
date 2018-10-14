@@ -52,9 +52,14 @@ label {
     font-size: 15px;
 }
 
-li {
+#nav li:link {
     color: gray;
 }
+    
+
+/* a:link  {
+    color: gray;
+} */
 
 a {
     text-decoration: none;
